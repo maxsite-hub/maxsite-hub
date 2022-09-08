@@ -62,3 +62,11 @@ $(function(){
 
   
 });
+
+$(window).on('load', function () {
+    $('.preloader').delay(200).fadeOut('slow');
+  
+    setTimeout(function(){
+      $('body').removeClass('no-scroll');
+    },3000)
+  });

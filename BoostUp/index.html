@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoostUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta name="description" content="Сайт языковой школы" />
+    <meta name="keywords" content="На встречах делается акцент на то, чтобы ученик правильно
+    применял правила грамматики, распознавал речь носителя, всё
+    время пополнял свой словарный запас, работал над
+    звукоизвлечением, был способен грамотно формировать фразы и
+    преодолевать внутренние барьеры перед говорением." />
+    <meta name="google" content="notranslate" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(89269075, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/89269075"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__left">
+          <a href="/">
+            <img src="images/logo.svg" alt="Логотип языковой школы BoostUp" />
+          </a>
+        </div>
+        <nav class="header__menu">
+          <a class="header__menu_link" href="#slider__blog"> Наши занятия </a>
+          <a class="header__menu_link" href="#timetable"> Расписание </a>
+          <a class="header__menu_link" href="#price"> Цены </a>
+          <a class="header__menu_link" href="#reviews"> Отзывы </a>
+          <div class="connection__messenger_container">
+            <a
+              class="connection__messenger_link"
+              href="https://vk.com/boostuprostov"
+            >
+              <img src="images/vk.svg" alt="Логотип вк" />
+            </a>
+            <a
+              class="connection__messenger_link"
+              href="https://api.whatsapp.com/send?phone=79198803707"
+            >
+              <img src="images/whatsapp.svg" alt="Логотип whatsapp" />
+            </a>
+            <a
+              class="connection__messenger_link"
+              href="https://vk.com/boostuprostov"
+            >
+              <img src="images/instagram.svg" alt="Логотип instagram" />
+            </a>
+          </div>
+        </nav>
+        <div class="header__contact">
+          <a
+            class="header__contact_link contacts--phone"
+            href="tel:+79198803707"
+          >
+            8 (919) 880-37-07
+          </a>
+          <a class="header__contact_link contacts--map" href="#map">
+            Батуринская улица, 161
+          </a>
+        </div>
+
+        <button class="header__burger" type="button">
+          <span class="header__burger__item"></span>
+        </button>
+      </div>
+    </header>
+    <main class="page">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__content">
+            <h1 class="title title--intro">
+              Школа иностранных языков
+              <span>для всех возрастов</span>
+            </h1>
+            <div class="intro__content_inner">
+              <div class="intro__content_left">
+                <ul class="list">
+                  <li>Мы поможем тебе подготовиться к ОГЭ/ЕГЭ</li>
+                  <li>Повысить свой уровень</li>
+                  <li>Английского и Испанского языка</li>
+                </ul>
+                <div class="intro__btn">
+                  <p class="foreword">Запишитесь на бесплатный первый урок*</p>
+                  <button class="btn intro--btn">
+                    <a href="#feedback"> Записаться на урок</a>
+                  </button>
+                </div>
+              </div>
+              <div class="intro__content_right">
+                <img
+                  class="intro_img"
+                  src="images/intro.jpg"
+                  alt="фотография учеников языковой школы BoostUp"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about_img">
+              <img
+                src="images/about.jpg"
+                class="about_img"
+                alt="Фотография из языковой школы BoostUp"
+              />
+            </div>
+            <div class="about__descr">
+              <h2 class="title">О нашей школе</h2>
+              <div class="about_text">
+                <p>
+                  На встречах делается акцент на то, чтобы ученик правильно
+                  применял правила грамматики, распознавал речь носителя, всё
+                  время пополнял свой словарный запас, работал над
+                  звукоизвлечением, был способен грамотно формировать фразы и
+                  преодолевать внутренние барьеры перед говорением.
+                </p>
+                <p>
+                  Кроме этого, в языковой школе вы можете походить на курсы
+                  английского языка (в частности делового английского и
+                  английского для детей и взрослых)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="whom">
+        <div class="container">
+          <h2 class="title">Для кого?</h2>
+          <div class="subtitle">
+            Мы преподаем детям и взрослым, с любым уровнем подготовки и для
+            любых целей
+          </div>
+          <div class="whom__item">
+            <div class="whom__item_list whom_1">
+              <div
+                class="whom_img"
+                style="background-image: url(images/whom-1.jpg)"
+              ></div>
+
+              <div class="whom-name">Для школьников</div>
+              <div class="whom-desc">
+                После завершения курса ребенок выучит 400 новых слов и сможет
+                поддерживать беседу на такие темы, как игры, дом, город,
+                животные, школа, работа мечты, еда.
+              </div>
+            </div>
+            <div class="whom__item_list whom_2">
+              <div
+                class="whom_img"
+                style="background-image: url(images/whom-2.jpg)"
+              ></div>
+              <div class="whom-name">Для подростков</div>
+              <div class="whom-desc">
+                Мы находим темы, которые интересны и актуальны для подростков, а
+                также используем самые современные технологии.
+              </div>
+            </div>
+            <div class="whom__item_list whom_3">
+              <div
+                class="whom_img"
+                style="background-image: url(images/whom-3.jpg)"
+              ></div>
+
+              <div class="whom-name">Студентов и взрослых</div>
+              <div class="whom-desc">
+                Специализированные бизнес-курсы, интенсивы, программы для
+                путешественников, подготовка к экзаменам и др.
+              </div>
+            </div>
+          </div>
+          <div class="whom__item-one">
+            <div
+              class="whom__arrow"
+              style="background-image: url(images/arrow.png)"
+            >
+              Для <span class="color--red">самых</span>
+
+              <span class="small-text">маленьких </span>
+            </div>
+            <img
+              class="whom_img"
+              src="images/whom-4.jpg"
+              alt="Фотография из языковой школы BoostUp"
+            />
+            <div class="whom__block">
+              <div class="whom-name">Малышей и детей</div>
+              <div class="whom-desc">
+                <p>
+                  Эти уроки помогут детям освоить самые полезные английские
+                  слова
+                </p>
+
+                <p>
+                  Уроки направлены на закрепление в памяти ребенка звуковой и
+                  письменной формы английских слов, а также их перевода.
+                </p>
+                <p>
+                  Регулярные занятия английским помогут развить интеллект и
+                  логические способности ребенка.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="slider__blog" id="slider__blog">
+        <div class="container">
+          <h2 class="title">Наши занятия</h2>
+        </div>
+        <div class="slider__blog_inner">
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/1.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/2.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/3.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/4.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/5.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/6.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/7.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/8.jpg)"
+          ></div>
+          <div
+            class="slider__blog_item"
+            style="background-image: url(images/photo-classes/9.jpg)"
+          ></div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="title">Преподаватели</h2>
+          <div class="subtitle">
+            Преподаватели языковой школы Boost Up! могут предложить курс,
+            ориентируясь на ваши цели и ваш уровень.
+          </div>
+          <div class="team__items">
+            <div class="team__item">
+              <img
+                class="team_img"
+                src="images/team-1.jpg"
+                alt="Фотография преподавателя из языковой школы BoostUp"
+              />
+              <h6 class="team__name">Дарья</h6>
+              <p class="team__prof">Английский язык</p>
+            </div>
+            <div class="team__item">
+              <img
+                class="team_img"
+                src="images/team-2.jpg"
+                alt="Фотография преподавателя из языковой школы BoostUp"
+              />
+              <h6 class="team__name">Виктория</h6>
+              <p class="team__prof">Испанский язык</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="timetable" id="timetable">
+        <div class="container">
+          <h2 class="title">Расписание</h2>
+          <div class="timetable__item">
+            <ul class="timetable__list">
+              <li class="timetable__list_direction">Дошкольники:</li>
+              <li class="timetable__list_info">
+                <div>группа для малышей (3 года)</div>
+                <div class="timetable_date">Пн/ср 16:30</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>группа 4-5 лет</div>
+                <div class="timetable_date">Пн/ср 17:30</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>группа 6-7 лет</div>
+                <div class="timetable_date">Пн/ср 17:30</div>
+              </li>
+            </ul>
+            <ul class="timetable__list">
+              <li class="timetable__list_direction">Младшие школьники:</li>
+              <li class="timetable__list_info">
+                <div>2 класс (продвинутые, Academy stars)</div>
+                <div class="timetable_date">Пн/ср 16:30</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>2 класс (продвинутые, Academy stars)</div>
+                <div class="timetable_date">Вт/ср 17:30</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>3 класс (утренняя группа)</div>
+                <div class="timetable_date">Вт 10:00/пт 9:00</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>3 класс (Academy stars, дневная группа)</div>
+                <div class="timetable_date">Пн/ср 14:30</div>
+              </li>
+            </ul>
+            <ul class="timetable__list">
+              <li class="timetable__list_direction">Школьники:</li>
+              <li class="timetable__list_info">
+                <div>группа 5-6 класс</div>
+                <div class="timetable_date">Вт/чт 9:00/14:30</div>
+              </li>
+            </ul>
+            <ul class="timetable__list">
+              <li class="timetable__list_direction">Подростки:</li>
+              <li class="timetable__list_info">
+                <div>7 класс (elementary)</div>
+                <div class="timetable_date">Пн/ср 15:30/ср 16:00</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>8-9 класс (pre-intermediate)</div>
+                <div class="timetable_date">Пн/чт 11:00/Пн 15:30</div>
+              </li>
+              <li class="timetable__list_info">
+                <div>группа 6-7 лет</div>
+                <div class="timetable_date">Пн/ср 17:30</div>
+              </li>
+            </ul>
+          </div>
+          <div class="color--red">
+            Расписание для взрослых и по подготовке к ОГЭ/ЕГЭ уточняйте по
+            номеру телефона*
+          </div>
+        </div>
+      </section>
+      <section class="pricing" id="price">
+        <div class="container">
+          <h2 class="title">Удобный вид обучения</h2>
+          <div class="subtitle">
+            Подберите вид обучения, который подходит Вам!
+          </div>
+          <div class="pricing__items">
+            <ul class="pricing__item">
+              <li class="pricing__item_name">Малыши / Дети</li>
+              <li class="pricing__item_num"><sup>₽</sup>160</li>
+              <li>группа от 3 до 6 лет</li>
+              <li>время занятия 80 минут</li>
+              <li>2 занятия в неделю</li>
+              <li><button class="btn"><a href="#feedback"> Записаться</a></button></li>
+            </ul>
+            <ul class="pricing__item">
+              <li class="pricing__item_name">Дети / Подростки</li>
+              <li class="pricing__item_num"><sup>₽</sup>160</li>
+              <li>группа от 7 до 17 лет</li>
+              <li>время занятия 80 минут</li>
+              <li>2 занятия в неделю</li>
+              <li><button class="btn"><a href="#feedback"> Записаться</a></button></li>
+            </ul>
+            <ul class="pricing__item">
+              <li class="pricing__item_name">Студенты / Взрослые</li>
+              <li class="pricing__item_num"><sup>₽</sup>260</li>
+              <li>группа от 17+</li>
+              <li>время занятия 120 минут</li>
+              <li>2 занятия в неделю</li>
+              <li><button class="btn"><a href="#feedback"> Записаться</a></button></li>
+            </ul>
+            <ul class="pricing__item">
+              <li class="pricing__item_name">Индивидуальные занятия</li>
+              <li class="pricing__item_num"><sup>₽</sup>800</li>
+              <li>для всех возрастов</li>
+              <li>время занятия 40 минут</li>
+              <li>по договоренности</li>
+              <li><button class="btn"><a href="#feedback"> Записаться</a></button></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="slider__reviews" id="reviews">
+        <div class="container">
+          <h2 class="title">
+            <span class="color--red">&#10084;</span>Отзывы клиентов<span
+              class="color--red"
+              >&#10084;</span
+            >
+          </h2>
+          <div class="slider__reviews_inner">
+            <div
+              class="slider__reviews_item"
+              style="background-image: url(images/reviews/1.jpg)"
+            ></div>
+            <div
+              class="slider__reviews_item"
+              style="background-image: url(images/reviews/2.jpg)"
+            ></div>
+            <div
+              class="slider__reviews_item"
+              style="background-image: url(images/reviews/3.jpg)"
+            ></div>
+            <div
+              class="slider__reviews_item"
+              style="background-image: url(images/reviews/4.jpg)"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="accordion">
+        <div class="container">
+          <h2 class="title">Вопросы и ответы</h2>
+          <div class="accordion__content">
+            <div class="accordion__item show">
+              <div class="accordion__item_header accordion--toggle">
+                <div class="accordion__item_media"></div>
+                <h4 class="accordion__item_title">
+                  Как повысить уровень английского?
+                </h4>
+              </div>
+              <div class="accordion__item_info" style="display: block">
+                <span class="accordion__item_desc">
+                  Начните заниматься с преподавателем - самому выбрать пособия и
+                  правильный путь изучения языка очень трудно. Ещё такие занятия
+                  очень дисциплинируют, вам не захочется отложить изучение языка
+                  на потом или пропустить занятие!
+                </span>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__item_header accordion--toggle">
+                <div class="accordion__item_media"></div>
+                <h4 class="accordion__item_title">
+                  Когда лучше начинать учить язык?
+                </h4>
+              </div>
+              <div class="accordion__item_info">
+                <span class="accordion__item_desc">
+                  Начинать учить английский можно с 3-4 лет. Самым важным
+                  периодом для развития навыков, помогающих освоить второй язык,
+                  ученые считают 5-8 лет.
+                </span>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__item_header accordion--toggle">
+                <div class="accordion__item_media"></div>
+                <h4 class="accordion__item_title">
+                  Что усвоит ребёнок после прохождения данного курса?
+                </h4>
+              </div>
+              <div class="accordion__item_info">
+                <span class="accordion__item_desc">
+                  Развитие всех языковых навыков. После завершения курса ребенок
+                  выучит 400 новых слов и сможет поддерживать беседу на такие
+                  темы, как игры, дом, город, животные, школа, работа мечты,
+                  еда. Кроме того, дети смогут использовать в речи глаголы в
+                  настоящем времени, отрицание, местоимения, притяжательный
+                  падеж и строить предложения с оборотом there is/are.
+                </span>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__item_header accordion--toggle">
+                <div class="accordion__item_media"></div>
+                <h4 class="accordion__item_title">
+                  Сколько необходимо времени, чтобы выучить язык?
+                </h4>
+              </div>
+              <div class="accordion__item_info">
+                <span class="accordion__item_desc">
+                  сходя из нашей практики, для уверенного общения за границей
+                  необходимо учить английский не менее 2 лет, если вы осваиваете
+                  язык "с нуля". На каждую ступень обучения нужно тратить 6-9
+                  месяцев, подробно здесь. Но это применительно именно к
+                  занятиям с персональным преподавателем, когда учитель
+                  занимается с вами.
+                </span>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__item_header accordion--toggle">
+                <div class="accordion__item_media"></div>
+                <h4 class="accordion__item_title">
+                  Родители должны контролировать процесс обучения детей?
+                </h4>
+              </div>
+              <div class="accordion__item_info">
+                <span class="accordion__item_desc">
+                  Одной из зон напряжения могут стать ожидания обучаемых. Часто
+                  родители обращаются к своему опыту изучения иностранных
+                  языков, чтобы свериться с тем, как их детей учат в школе.
+                  Кто-то вспоминает про транскрипцию. Другие — про слова
+                  столбиком с переводом. Третьи — про словарные диктанты на
+                  каждом уроке в спецшколе. Если действия учителя не совпадают с
+                  вашими ожиданиями, стоит поговорить с педагогом. Задайте
+                  вопрос о том, какими методами планируется закреплять лексику,
+                  или какие у учителя взгляды на систему оценивания. Если
+                  получите уверенный ответ, пусть и не совпадающий с вашими
+                  ожиданиями — значит вы имеете дело с профессионалом.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback" id="feedback">
+        <div class="container">
+          <div class="feedback__block">
+            <div class="feedback__content">
+              <h2 class="title">
+                Запишись на
+                <span class="color--red">БЕСПЛАТНОЕ ПЕРВОЕ</span> занятие в
+                Boost Up!
+              </h2>
+              <p class="subtitle">
+                Пробный урок- это не тестирование и не проверка знаний! Это
+                отличная возможность всего за один урок:
+              </p>
+
+              <ul class="list">
+                <li>познакомиться с преподавателем;</li>
+                <li>узнать много нового и интересного;</li>
+                <li>убедиться в качестве наших услуг;</li>
+              </ul>
+              <form
+                action="№"
+                class="form"
+                method="POST"
+                enctype="multipart/form-data"
+              >
+                <div class="input__blocks">
+                  <div class="input__block">
+                    <label class="input-title">Ваше имя</label>
+                    <input
+                      class=""
+                      type="text"
+                      data-validate-field="name"
+                      name="Имя"
+                    />
+                  </div>
+                  <div class="input__block">
+                    <label class="input-title">Ваш телефон</label>
+                    <input
+                      type="tel"
+                      data-validate-field="tel"
+                      name="Телефон"
+                    />
+                  </div>
+                </div>
+
+                <button class="btn">Отправить</button>
+              </form>
+            </div>
+            <div
+              class="feedback__img"
+              style="background-image: url(images/feedback.png)"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="connection">
+        <div class="container">
+          <div class="connection__left">
+            <h2 class="title">Наши контакты:</h2>
+            <div class="connection__contact">
+              <a
+                class="connection__contact_link connection--phone"
+                href="tel:+79198803707"
+              >
+                8 (919) 880-37-07
+              </a>
+              <a class="connection__contact_link"
+                >г.Ростов-на-Дону,<br />
+                Батуринская улица, 161
+              </a>
+            </div>
+            <div class="connection__messenger">
+              <div class="connection_title">Напишите нам</div>
+              <div class="connection__messenger_container">
+                <a
+                  class="connection__messenger_link"
+                  href="https://vk.com/boostuprostov"
+                >
+                  <img src="images/vk.svg" alt="Логотип вк" />
+                </a>
+                <a
+                  class="connection__messenger_link"
+                  href="https://api.whatsapp.com/send?phone=79198803707"
+                >
+                  <img src="images/whatsapp.svg" alt="Логотип whatsapp" />
+                </a>
+                <a
+                  class="connection__messenger_link"
+                  href="https://vk.com/boostuprostov"
+                >
+                  <img src="images/instagram.svg" alt="Логотип instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="connection__map" id="map"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <a class="privacy__policy" href="privacy.html">Политика конфиденциальности</a>
+        <div>
+          <p>© 2022 Все права защищены</p>
+        </div>
+      </div>
+    </footer>
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/inputmask/inputmask.min.js"></script>
+    <script src="libs/justvalidate/just-validate.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
